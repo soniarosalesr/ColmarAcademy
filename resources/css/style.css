@@ -1,0 +1,270 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+header {
+    background-color: #8c1515;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 64px;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    color: white;
+}
+
+.logo b {
+    font-weight: 600;
+}
+
+.filter-white {
+    filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(258deg) brightness(111%) contrast(100%);
+}
+
+nav {
+    display: block;
+    padding-right: 8px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding-right: 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+#intro {
+    display: flex;
+    align-items: center;
+    background-color: #EEEEEE;
+    color: #2e2d29;
+}
+
+#intro img {
+    width: 57.32%;
+    padding-left: 24px;
+    padding-right: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.comptext {
+    display: inline;
+    width: 335px;
+    padding-right: 20px;
+}
+
+.comptext h1 {
+    font-weight: 500;
+    line-height: 1.1em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.comptext h2 {
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1.7em;
+}
+
+button {
+    background-color: #d2c295;
+    width: 90%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+}
+
+#info {
+    display: flex;
+    align-items: center;
+}
+
+section.quote {
+    width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-right: 2px solid #8c1515;
+}
+
+section img {
+    width: 100%;
+}
+
+section h3 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-size: 1.70em;
+}
+
+section p {
+    font-weight: 300;
+}
+
+aside.info-links {
+    width: 40%;
+
+}
+
+.info-block {
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.info-block img {
+    width: 35%;
+    padding-right: 16px;
+}
+
+.text-info {
+    flex-direction: column;
+}
+
+.text-info h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text-info p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.text-info a {
+    color: #d2c295;
+    text-decoration: none;
+}
+
+#campus {
+    background-color: #eee;
+}
+
+#Learn {
+    background-color: #eee;
+    padding-bottom: 42px;
+}
+
+#Learn h4 {
+    margin-top: 0;
+    padding-top: 42px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    color: #2e2d29;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 32px;
+    column-gap: 32px;
+}
+
+.courses {
+    width: 26%;
+    background-color: white;
+    padding-bottom: 16px;
+}
+
+.courses img {
+    width: 100%;
+    height: auto;
+}
+
+.courses span {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.courses p {
+    font-weight: 300;
+}
+
+.text-course {
+    padding-left: 16px;
+    font-size: 1em;
+    padding-right: 8px;
+}
+
+#thesis h2 {
+    text-align: center;
+}
+
+#thesis h3 {
+    font-size: 1.3em;
+}
+
+.container {
+    display: flex;
+}
+
+.videoth {
+    width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.videoth video {
+    width: 100%;
+}
+
+aside.events {
+    width: 40%;
+}
+
+.box-events {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #8c1515;
+    border-bottom: 1px solid #8c1515;
+}
+
+.box-events img {
+    width: 35%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.text-events h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text-events p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+footer {
+    display: flex;
+}

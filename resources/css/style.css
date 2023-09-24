@@ -53,6 +53,10 @@ nav ul li a {
     font-weight: 300;
 }
 
+.mobile-nav {
+    display: none;
+}
+
 #intro {
     display: flex;
     align-items: center;
@@ -143,6 +147,10 @@ aside.info-links {
     padding-right: 16px;
 }
 
+.img-mobile {
+    display: none;
+}
+
 .text-info {
     flex-direction: column;
 }
@@ -214,6 +222,10 @@ aside.info-links {
     padding-right: 8px;
 }
 
+.mobile-course {
+    display: none;
+}
+
 #thesis h2 {
     text-align: center;
 }
@@ -224,6 +236,7 @@ aside.info-links {
 
 .container {
     display: flex;
+    padding-bottom: 32px;
 }
 
 .videoth {
@@ -272,4 +285,158 @@ footer {
     padding-left: 24px;
     padding-right: 24px;
     background-color: #eee;
+}
+
+/*For screen sizes less than or equal to 500px */
+
+@media screen and (max-width: 500px) {
+    .mobile-nav {
+        display: flex;
+        padding-right: 0;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    nav.mobile-nav img {
+        filter: invert(100%) sepia(4%) saturate(7500%) hue-rotate(258deg) brightness(111%) contrast(100%);
+    }
+
+    nav.mobile-nav ul {
+        padding-inline-start: 0;
+        align-items: flex-end;
+    }
+
+    nav.mobile-nav ul li {
+        padding-left: 16px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #intro {
+        display: block;
+    }
+
+    #intro img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .comptext {
+        display: block;
+        padding-left: 16px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-right: 16px;
+        width: fit-content;
+    }
+
+    .comptext button {
+        width: 100%;
+    }
+
+    #info {
+        display: block;
+    }
+
+    section.quote {
+        display: none;
+    }
+
+    aside.info-links {
+        width: fit-content;
+    }
+
+    .info-block {
+        display: block;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-bottom: 34px;
+        padding-right: 16px;
+    }
+
+    .info-block img {
+        display: none;
+    }
+
+    img.img-mobile {
+        display: block;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .text-info {
+        display: block;
+        padding-top: 16px;
+        padding-left: 26px;
+        font-size: 1.5em;
+    }
+
+    .text-info h4 {
+        font-size: 1em;
+    }
+
+    #Learn {
+        background-color: white;
+        padding-bottom: 32px;
+    }
+
+    #Learn h4 {
+        font-weight: 600;
+        padding-top: 32px;
+        padding-bottom: 16px;
+        margin-bottom: 0;
+    }
+
+    .table {
+        display: none;
+    }
+
+    .mobile-course {
+        display: block;
+        background-color: #eee;
+        padding: 16px;
+        margin-bottom: 8px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }    
+
+    .mobile-course p {
+        font-size: 1.4em;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .container {
+        display: block;
+    }
+
+    section.videoth {
+        width: fit-content;
+    }
+
+    section.videoth h3 {
+        display: none;
+    }
+
+    section.videoth p {
+        display: none;
+    }
+
+    aside.events {
+        display: none;
+    }
+
+    .terms {
+        display: none;
+    }
+
 }
